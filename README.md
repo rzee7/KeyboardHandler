@@ -13,7 +13,7 @@ Download Nuget
     
     public override void ViewWillAppear(bool animated)
   	{
-      base.ViewWillDisappear(animated);
+      base.ViewWillAppear(animated);
       this.yourScrollView.SubscribeKeyboardManaqger();
   	}
     
